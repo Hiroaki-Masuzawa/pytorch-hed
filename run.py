@@ -7,6 +7,8 @@ import PIL.Image
 import sys
 import torch
 
+from hed_network import Network
+
 ##########################################################
 
 torch.set_grad_enabled(False) # make sure to not compute gradients for computational performance

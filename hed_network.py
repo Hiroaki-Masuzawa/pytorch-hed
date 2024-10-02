@@ -2,6 +2,8 @@
 
 import torch
 
+args_strModel = 'bsds500'
+
 ##########################################################
 
 class Network(torch.nn.Module):
